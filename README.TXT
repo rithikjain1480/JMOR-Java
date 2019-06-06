@@ -18,9 +18,9 @@ After downloading, change the run configurations to run the index.jsp file to th
 
 Before running, a file path in the code must be changed. In the web.xml file (found under src/main/webapp/WEB-INF), change the param-value within the context-param to wherever you would like the file to be saved on your laptop.
 
-Go to localhost:8080/RJainGhatare_JMOR to view the form (change port if your Tomcat Server is on a different port). Upload a text file (test and wordsworth are provided as test files) to the form, and a Java applet will appear. Click the generate links button to begin generating links, and click ok on the popup that appears. After a few seconds, the screen will fill with the top relevant links. A complete list of keywords and links can be found in the console.
+Go to localhost:8080/JMOR-Java to view the form (change port if your Tomcat Server is on a different port). Upload a text file (test and wordsworth are provided as test files) to the form, and a Java applet will appear. Click the generate links button to begin generating links, and click ok on the popup that appears. After a few seconds, the screen will fill with the top relevant links. A complete list of keywords and links can be found in the console.
 
 If you have any questions, or something is not working right, feel free to ask us!
 
 
-AUTHORS: Adishree Ghatare and Rithik Jain
+AUTHORS: Rithik Jain and Adishree Ghatare
