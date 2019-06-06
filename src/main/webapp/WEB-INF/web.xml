@@ -1,0 +1,26 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+
+	<context-param>
+		<param-name>file-upload</param-name>
+		<param-value>
+			/Users/rithikjain/Desktop/
+		</param-value>
+		<description>Location to store uploaded file</description>
+	</context-param>
+
+	<servlet>
+		<servlet-name>JMOR</servlet-name>
+		<servlet-class>JMORServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>JMOR</servlet-name>
+		<url-pattern>/jmor</url-pattern>
+	</servlet-mapping>
+
+</web-app>
